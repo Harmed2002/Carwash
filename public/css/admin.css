@@ -1,0 +1,105 @@
+
+label {
+  width: 300px;
+  /*font-weight: bold;*/
+  display: inline-block;
+  /*margin-top: 20px;*/
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+label span {
+  font-size: 1rem;
+}
+
+label.error {
+    color: red;
+    font-size: 0.7rem;
+    display: block;
+    margin-top: 5px;
+}
+
+input.error, textarea.error {
+    border: 1px dashed red;
+    font-weight: 300;
+    color: red;
+}
+
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+
+  background-color: #007bff !important;
+  color: #fff !important;
+}
+
+input{
+  text-transform: uppercase;
+}
+
+.main-sidebar {
+  min-height:auto !important;
+}
+
+.sidebar{
+
+  height: 1000px;
+
+}
+
+img.img-xs{
+  width: 65px;
+  height: 60px;
+}
+
+
+img.img-sm{
+  width: 200px;
+  height: 200px;
+}
+
+table{
+  text-transform:uppercase;
+  font-size: 13px; 
+}
+
+
+.select2-container {
+  font-size: 15px; 
+}
+
+.modal-header-primary {
+	color:#fff;
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #17a2b8;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+}
+
+input[type="file"]#photo {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+label[for="photo"] {
+  font-size: 8px;
+  font-weight: 200;
+  color: #fff;
+  background-color: #106BA0;
+  display: inline-block;
+  transition: all .5s;
+  cursor: pointer;
+  /*padding: 15px 40px !important;*/
+  padding: 5px 20px !important;
+  /*text-transform: uppercase;*/
+  width: fit-content;
+  text-align: center;
+}
